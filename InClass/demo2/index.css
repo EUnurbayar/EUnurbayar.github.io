@@ -1,6 +1,12 @@
 /* Style.css*/
+body{
+    width: fit-content;
+    padding: 1em;
+    margin: 3em;
+}
 p{
     color:blue;
+    text-align: center;
 
 }
 
@@ -12,4 +18,10 @@ h2{
     color: #c9c9c9;
 }
 
+.BlueColor{
+    color: blue;
+}
 
+.RedColor{
+    color: red;
+}
