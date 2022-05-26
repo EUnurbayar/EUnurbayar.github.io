@@ -74,9 +74,13 @@ body {
   
   pre {
     font-family: monospace;
-    text-align: right;
+  }
+  div.logos {
+    display: flex;
+    justify-content: flex-end;
+  }
+  div.copyrightInfo {
+    display: flex;
+    justify-content: flex-end;
   }
   
-  .logos{
-      justify-items: right;
-  }
