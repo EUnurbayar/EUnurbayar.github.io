@@ -74,4 +74,9 @@ body {
   
   pre {
     font-family: monospace;
+    text-align: right;
+  }
+  
+  .logos{
+      justify-items: right;
   }
