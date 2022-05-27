@@ -1,0 +1,44 @@
+
+
+.container{
+  border: .1rem solid;
+  border-radius: 5px;
+  height: 100vh;
+  background-color: azure;
+  background-image: url( "../AboutMe/image/laptop-1839876_960_720.jpg");
+
+    
+}
+
+nav{
+    background-color: cornflowerblue;
+    height: 3em;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+   
+}
+div.homeNav{
+    align-items: center;
+}
+
+.main{
+    padding-left: .5em;
+}
+h1{
+    text-align: center;
+    height: 2em;
+    margin: 2em;
+}
+
+p{
+    /* height: 1em; */
+    font-family: 'Bitter', serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+
+}
+
