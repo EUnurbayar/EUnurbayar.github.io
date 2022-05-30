@@ -15,7 +15,27 @@ console.log("Hello World");
 
 
 
-b();
-function b(){
-    console.log("b function");
+// b();
+// function b(){
+//     console.log("b function");
+// }
+
+
+function a(){
+    for(var x=1; x <10; x++){
+    console.log(x)
+    }
+    console.log(x);
 }
+
+a();
+
+
+function d(){
+    for(let f=1; f < 10; f++){
+        console.log(f);
+    }
+    console.log(f);
+}
+
+d();
