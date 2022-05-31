@@ -135,3 +135,12 @@ function sumEvenSqr(array){
 
 console.log(sumEvenSqr([1,2,3,4,5]));
 
+let x =[1,2,3]
+function printArgs(){
+    for(element of arguments){
+        console.log(element);
+    }
+}
+
+printArgs(x);
+printArgs(["me","you","he"]);
