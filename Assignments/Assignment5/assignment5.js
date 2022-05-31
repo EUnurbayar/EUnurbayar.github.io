@@ -90,7 +90,6 @@ function findLongestWord(array){
 
 console.log(findLongestWord(["hi", "good", "morning"])); 
 
-//8
 function sumSqrs(array){
     let sum=0;
     for(const element of array){
