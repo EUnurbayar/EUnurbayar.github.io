@@ -1,5 +1,23 @@
 
 //1.
+//exmp1
+function max_1( num1, num2){
+    let max;
+    if(num1 > num2){
+        max = num1;
+    } else {
+        max = num2;
+    }
+    return max;
+}
+console.log(max_1(3,6));
+
+const num1 = 2;
+const num2 = 4;
+const maxOutPut = max_1(num1, num2);
+console.log(`The max of ${num1}and ${num2} is ${maxOutPut}`)
+
+//exmp2 of 1.
 function max(x,y){
    if(x > y){
        console.log(x);
@@ -8,9 +26,25 @@ function max(x,y){
    }
     
 }
-
 max(5,9);
 max(6,1);
+
+//exmp3 of 1. 
+
+// Using Function expression
+const max1 = function(num1, num2){
+
+};
+
+
+// Using Arrow Function
+const max2 = (num1, num2) =>{
+
+};
+
+//Using Ternary Operation
+const  max3=0;
+
 
 //2.
 function maxOfThree(x,y,z){
@@ -157,3 +191,13 @@ let arrMult = [1,2,3,4,5];
 let multip_Arr_elms = arrMult.reduce((previousValue, currentValue) => previousValue * currentValue, 1);
 console.log(multip_Arr_elms);
 
+//string interportation
+console.log(`${multip_Arr_elms}`);
+
+const stringLine = 
+    ` 
+    string 1
+    string 2 
+    `;
+
+console.log(stringLine);
