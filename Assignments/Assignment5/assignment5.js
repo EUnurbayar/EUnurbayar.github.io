@@ -1,16 +1,22 @@
-
+"Use Strict";
 //1.
 
 // any number of arguments sum
 function sumArgs(){
     let sum = 0;
-    for(let i =0; i < arguments.length; i++){
-       sum += arguments[i];
-    }
+
+    // for(let i = 0; )
+ 
+    // using for...in
+    // for(const i in arguments) {
+    //     sum += arguments[i];
+    // }
+    // for...of
    return sum;
 }
 console.log(sumArgs(1,2,3));
 console.log(`The sum of [1,2,3] is ${sumArgs(1,2,3)}`);
+
 //exmp1
 function max_1( num1, num2){
     let max;
