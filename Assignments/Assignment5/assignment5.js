@@ -146,18 +146,15 @@ printArgs(x);
 printArgs(["me","you","he"]);
 
 
-//11.
+//11. REDUCE FUNCTION
 //sum
 let arraysum = [1,2,3,4,5];
 // let initialValue = 0;
 let sumRed = arraysum.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
-
 console.log(sumRed);
 
 //multiply
-
 let arrMult = [1,2,3,4,5];
 let multip_Arr_elms = arrMult.reduce((previousValue, currentValue) => previousValue * currentValue, 1);
-
 console.log(multip_Arr_elms);
 
