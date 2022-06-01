@@ -8,9 +8,9 @@ function sumArgs(){
     // for(let i = 0; )
  
     // using for...in
-    // for(const i in arguments) {
-    //     sum += arguments[i];
-    // }
+    for(const i in arguments) {
+        sum += arguments[i];
+    }
     // for...of
    return sum;
 }
