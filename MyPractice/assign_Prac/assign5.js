@@ -1,4 +1,3 @@
-"Use Strict";
 //1.
 
 // any number of arguments sum
@@ -141,7 +140,6 @@ function findLongestWord(array){
 
 console.log(findLongestWord(["hi", "good", "morning"])); 
 
-//8
 function sumSqrs(array){
     let sum=0;
     for(const element of array){
@@ -151,7 +149,7 @@ function sumSqrs(array){
 }
 console.log(sumSqrs([1,2,4]));
 
-function sumOfSquare(arr){
+function sumOfSquatre(arr){
      let sumSqr = 0;
      for(let i =0; i < arr.length; i++){
          sumSqr += Math.pow(arr[i],2);
@@ -159,7 +157,7 @@ function sumOfSquare(arr){
      return sumSqr;
 }
 
-console.log(sumOfSquare([1,2,3]));
+console.log(sumOfSquatre([1,2,3]));
 
 
 //9. Print Odd numbers only.
