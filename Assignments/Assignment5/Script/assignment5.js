@@ -1,6 +1,5 @@
 "Use Strict";
 //1.
-
 // any number of arguments sum
 function sumArgs(){
     let sum = 0;
@@ -127,6 +126,21 @@ function reverse(string){
 console.log(reverse("hello"));
 console.log(reverse("jag testar"));
 
+//5. reverse in place
+function revStrInPlace(str){
+    let i = 0;
+    let j = str.length -1;
+    while(i < j){
+        let temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
+        i++;
+        --j;
+    }
+    return str;
+}
+
+console.log(revStrInPlace("lala"))
 
 //6.
 function findLongestWord(array){
@@ -141,25 +155,26 @@ function findLongestWord(array){
 
 console.log(findLongestWord(["hi", "good", "morning"])); 
 
-//8
-function sumSqrs(array){
-    let sum=0;
-    for(const element of array){
-        sum += (element * element);
+//7.
+function filterLongWords(words, i){
+    let longWords =[];
+    for(let word of words){
+        if(word.length > i){
+            longWords.push(word);
+        }
     }
-    return sum;
+    return longWords;
 }
-console.log(sumSqrs([1,2,4]));
+console.log(filterLongWords(["hi", "hello", "function"],2));
 
-function sumOfSquare(arr){
-     let sumSqr = 0;
-     for(let i =0; i < arr.length; i++){
-         sumSqr += Math.pow(arr[i],2);
-     }
-     return sumSqr;
+
+
+//8 using imparative
+function computeSumOfSquare(a){
+    return a.map(n => n*n).reduce((sum, n) => sum +n,0);
 }
 
-console.log(sumOfSquare([1,2,3]));
+console.log(computeSumOfSquare([1,2,3]));
 
 
 //9. Print Odd numbers only.
@@ -173,6 +188,8 @@ function oddNums (arr){
     return odd;
 }
 console.log(oddNums([1,2,3,4,5,6,7]));
+
+//use filter!!!!!!
 
 //10. compute Sum Of Squares Of Evens Only.
 function sumEvenSqr(array){
@@ -208,6 +225,10 @@ console.log(sumRed);
 let arrMult = [1,2,3,4,5];
 let multip_Arr_elms = arrMult.reduce((previousValue, currentValue) => previousValue * currentValue, 1);
 console.log(multip_Arr_elms);
+
+//12. find second max
+
+
 
 //string interportation
 console.log(`${multip_Arr_elms}`);
