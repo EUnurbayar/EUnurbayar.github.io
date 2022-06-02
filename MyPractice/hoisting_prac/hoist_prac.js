@@ -1,5 +1,5 @@
-"use strict"
-
+// "use strict"
+/** 
 console.log(x); //jundefined
 var x = 0;
 //============
@@ -19,4 +19,15 @@ function g(){
 f();
 function f(){
     console.log(x);// 0
+}
+
+
+*/
+
+x=1;
+var a =5;
+var b = 10;
+var c = function(a,b,c){
+    document.write(x);
+    
 }
