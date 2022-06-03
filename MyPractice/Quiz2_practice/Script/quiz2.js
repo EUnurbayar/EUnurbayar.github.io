@@ -1,5 +1,5 @@
-"Use strict"
-
+"Use strict"            
+                                                     
 window.onload = function(){
     const emailForm = document.getElementById("emailForm");
     emailForm.addEventListener("submit", printForData);
