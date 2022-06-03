@@ -12,21 +12,60 @@
     <div class="container">
         <h1>Email Log In Form</h1>
         <div class="container">
-            <form id="emailForm" action="submit" method="post">
-                <label class="label"  for="email"> Enter email address</label>
+            <form 
+                id="emailForm" 
+                action="submit"
+                method="post"
+            >
+                <label 
+                    class="label"  
+                    for="email">
+                     Enter email address
+                </label>
                 <div>
-                    <input class="input" type="email" name="email_input" id="email"
-                     placeholder="Enter your email" pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}" required>
+                    <input 
+                    class="input" 
+                    type="email" 
+                    name="email_input" id="email"
+                    placeholder="Enter your email"
+                    pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}" 
+                    required
+                    >
                 </div>
-                <label class="label" for="password">Enter password</label>
+                <label 
+                    class="label" 
+                    for="password">
+                    Enter password
+                </label>
                 <div> 
-                    <input class="input" type="password" name="email_password" id="password" 
-                    placeholder="Password" pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{8,}" required >
+                    <input 
+                        class="input" 
+                        type="password" 
+                        name="email_password" 
+                        id="password" 
+                        placeholder="Password" 
+                        pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{8,}" 
+                        required
+                    >
+                </div>
+                <div class="buttonSubmit">
+                    <input 
+                        class="button" 
+                        type="submit" 
+                        name="submit_button" 
+                        id="submit_button"
+                    >
                 </div>
                 <div>
-                    <input class="button" type="submit" name="submit_button" id="submit_button">
+                  <div>
+                    <label class="label" for="quantity"> Quantity for email</label>
+                  </div>
+                     <input class="input" type="number" id="quantity" value="0">
                 </div>
-                
+                    <div>
+                        <input type="radio" value="check">
+                        <label for="radioButtnon">Radio Button</label>
+                    </div>
             </form>
         </div>
 
