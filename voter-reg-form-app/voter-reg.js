@@ -10,6 +10,12 @@ window.onload = function(){
         const fname = document.getElementById("firstName");
         const lname = document.getElementById("lastName");
         const level_study = document.getElementById("levelOfStudy");
+
+        // alert(
+        //     `
+        //     Voter Number: 
+        //     `
+        // )
         console.log(v_num .value);
         console.log(fname.value);
         console.log(lname.value);
