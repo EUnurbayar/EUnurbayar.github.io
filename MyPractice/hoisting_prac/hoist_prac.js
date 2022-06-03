@@ -46,44 +46,62 @@ function f(){
 
 
 //example1
-function a(){
-    console.log(x);
-}
+// function a(){
+//     console.log(x);
+// }
 
-function b(){
-    var x =10;
-    a();
-}
+// function b(){
+//     var x =10;
+//     a();
+// }
 
-var x =20;
-b();
+// var x =20;
+// b();
 
 //example2
 
-function B(){
-    function A(){
-        console.log(x)
-    }
-    var x = 10;
-    A();
+// function B(){
+//     function A(){
+//         console.log(x)
+//     }
+//     var x = 10;
+//     A();
+// }
+// var x =20;
+// B();
+
+// //example3
+// function f(){
+//     var a=1, b=20, c;
+//     console.log(a + " " + b +" "+ c);
+//     function g(){
+//         var b = 300, c = 4000;
+//         console.log(a + " " + b +" "+ c);
+//         a = a + b + c;
+//         console.log(a + " " + b +" "+ c);
+
+//     }
+//     console.log(a + " " + b +" "+ c);
+//     g();
+//     console.log(a + " " + b +" "+ c);
+// }
+
+// f();
+
+
+var p = 50;
+var q = 19;
+var r = 100;
+
+function f (p,q,r){
+    console.log(`a = ${a}`);
+    p = r;
+    r = r *2;
+
+
 }
-var x =20;
-B();
 
-//example3
-function f(){
-    var a=1, b=20, c;
-    console.log(a + " " + b +" "+ c);
-    function g(){
-        var b = 300, c = 4000;
-        console.log(a + " " + b +" "+ c);
-        a = a + b + c;
-        console.log(a + " " + b +" "+ c);
+var p = p(12,3,4);
+console.log(`p = ${p}`);
 
-    }
-    console.log(a + " " + b +" "+ c);
-    g();
-    console.log(a + " " + b +" "+ c);
-}
-
-f();
+var a = 17;
