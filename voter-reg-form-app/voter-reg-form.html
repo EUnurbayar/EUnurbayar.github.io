@@ -7,8 +7,18 @@
     <title>MIU Student Government - Voter Registration Form</title>
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="./voter-reg.js"></script>
+
+
+<script>
+    function takeval(){
+    var firstnam=document.getElementById('fistname')
+    alert(firstname);
+
+    }
+</script>
+
 </head>
-<body>
+<body onsubmit="takeval();">
     <header>
         <h1>MIU Student Government</h1>
     </header>
@@ -28,7 +38,7 @@
         <div style="margin-bottom: 1em;">
             Note: All data fields are required.
         </div>
-        <form id="form_reg"  action="submit" >
+        <form id="form_reg"  action="submit" required>
             <div class="form-row">
                 <div>
                     <label for="voterNo">Voter Number</label>
