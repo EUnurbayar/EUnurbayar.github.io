@@ -21,7 +21,7 @@
               <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
+                    <a class="nav-link" href="#" >Home
                       <span class="visually-hidden">(current)</span>
                     </a>
                   </li>
@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#">About</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                    <a class="nav-link" data-bs-toggle="dropdown" href="./census_form.html" role="button" aria-haspopup="true" aria-expanded="false"></a>
                     <!-- <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
@@ -52,10 +52,55 @@
             </div>
           </nav>
     </header>
-    <div class="container">
-        <main>
-            
-        </main>
+    <main>
+      <div class="container">
+        <h2>Census Form</h2>
+        <hr>
+        <Form method="post">
+          <div class="row">
+            <div class="col-md-12">
+             <div class="form-goup">
+              <label for="fullName">Full Name</label>
+              <input class="form-control" type="text" name="fullName" id="fullName">
+              <span></span>
+             </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-goup">
+               <label for="citizenId">Citizen Id</label>
+               <input class="form-control" type="text" name="fullName" id="citizenId">
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-goup">
+                  <label for="ssn">Social Sec No</label>
+                  <input class="form-control" type="text" name="fullName" id="ssn">
+                </div>
+              </div>
+            </div>
+           <div class="row">
+             <div class="col-md-6">
+                <div class="form-goup">
+                  <label for="state">State:*</label>
+                 <select name="state" id="stae">
+                  <option value="">Select State</option>
+                  <option value="Arizona">Arizona</option>
+                  <option value="New Mexico">New Mexico</option>
+                </select>
+                </div>
+             </div>
+             <div class="col-md-6">
+              <div class="form-goup">
+                <input type="radiobutton">
+              </div>  
+             </div>
+            </div>
+           </div> 
+        </Form>
+      </div>    
+    </main>
        
 </body>
 </html>
