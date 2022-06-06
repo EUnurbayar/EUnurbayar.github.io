@@ -89,19 +89,31 @@ function f(){
 // f();
 
 
-var p = 50;
-var q = 19;
-var r = 100;
+// var p = 50;
+// var q = 19;
+// var r = 100;
 
-function f (p,q,r){
-    console.log(`a = ${a}`);
-    p = r;
-    r = r *2;
+// function f (p,q,r){
+//     console.log(`a = ${a}`);
+//     p = r;
+//     r = r *2;
 
 
-}
+// }
 
-var p = p(12,3,4);
-console.log(`p = ${p}`);
+// var p = p(12,3,4);
+// console.log(`p = ${p}`);
 
-var a = 17;
+// var a = 17;
+
+// const findFirstN = function(n, a) {
+//     if (n >= a.length){
+//     console.log("Error: Insufficient items");
+//     } else {
+//     return a.filter((value,index, array) =>index < n);
+//     }
+//     };
+//     var a = [1,3, 6, 2];
+//     a = findFirstN(3,a); // expected result: [1,3,6]
+//     console.log(a);
+//     findFirstN(3,a);// expected result: Error: Insufficient items
