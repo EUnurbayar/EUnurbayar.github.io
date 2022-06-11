@@ -4,7 +4,7 @@
 
 /* Question 1 */
 console.log("---------- Question 1 ----------");
-import {Person} from "./model/person.js";
+import { Person} from "./model/person.js"
 
 const persons = [];
 persons.push(new Person("Ana Smith", new Date(1998, 11, 15)));
