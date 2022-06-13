@@ -1,7 +1,7 @@
 const http = require("http");
 const url = require("url");
 const fs = require("fs");
-const addmod = require("./addmod.js");
+const addmod = require("./addmod");
 
 http
   .createServer(function (req, res) {
