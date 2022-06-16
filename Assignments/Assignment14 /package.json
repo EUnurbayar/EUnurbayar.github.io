@@ -12,7 +12,7 @@
     "Assignment",
     "CS472"
   ],
-  "author": "Jargal Ganbaatar",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
