@@ -5,37 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./public/css/index.css">
 </head>
-<div class="nav-div">
-    <h1>Welcome to My Page </h1>
-    <img class="fit-picture" src="https://user-images.githubusercontent.com/74628166/169932472-b2f24a0c-ae77-4ea6-9b2a-09ba2ee205a1.png" alt="My photo">
-    <h4>Enkhtsetseg Unurbayar</h4>
-
-</div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+</header>
 <body>
-    <ul>
-        <li>
-             Week:1  Day:1 - <a href="./index.html">Home Page</a>
-        </li>
-        <li> 
-             Week1 Day:3 - <a href="./Assignments/Assignment2/PieRecipe/pie.html">Pie Recipe</a>
-        </li>
-        <li> 
-            Week1 Day:4 - <a href="./Assignments/Assignment2/AboutMe/aboutMe.html">About Me</a>
-        </li>
-        <li>
-            Week1 Day:5 - <a href="./Assignments/Assignment3/movie.html">Movie</a>
-        </li>
-        <li>
-            Week1 Day:6 - <a href="./Assignments/Assignment4/Webform1.html">Web Form 1, </a> 
-            <a href="./Assignments/Assignment4/webform2.html"> Web Form 2.</a>
-        </li>
-        <li>
-            Week2 Day:2 - <a href="./Assignments/Assignment5/Script/assignment5.js">Assignment5</a>
-        </li>
-        <li>
-            Week2 Day;3 - <a href="./Assignments/Assignment5/assignment5.html">assignment5 HTML file </a>
-        </li>
-    </ul>
+   <div class="container">
+        <div class="intro">
+            <div class="title">
+                <h1>Welcome to My Web Application Course Page</h1>
+            </div>
+            <div class="name-pic">
+            <img class="fit-picture" src="https://user-images.githubusercontent.com/74628166/169932472-b2f24a0c-ae77-4ea6-9b2a-09ba2ee205a1.png" alt="My photo">
+            <h4> Myname is: Enkhtsetseg Unurbayar</h4>
+            </div>
+        </div>
+       <div class="lists-container">
+        <ul class="ul-list">
+            <li>
+               Assignemt: - <a class="list"  href="./index.html">Home Page</a>
+            </li>
+            <li> 
+               Assignemt - <a class="list" href="./Assignments/Assignment2/PieRecipe/pie.html">Pie Recipe</a>
+            </li>
+            <li> 
+                Assignment - <a class="list" href="./Assignments/Assignment2/AboutMe/aboutMe.html">About Me</a>
+            </li>
+            <li>
+                Assignemt - <a class="list" href="./Assignments/Assignment3/movie.html">Movie</a>
+            </li>
+            <li>
+                Assignment - <a class="list" href="./Assignments/Assignment4/Webform1.html">Web Form 1, </a> 
+                <a class="list" href="./Assignments/Assignment4/webform2.html"> Web Form 2.</a>
+            </li>
+            <li>
+                Assignment - <a class="list" href="./Assignments/Assignment5/Script/assignment5.js">Assignment5</a>
+            </li>
+            <li>
+                Assignment - <a class="list"  href="./Assignments/Assignment5/assignment5.html">assignment5 HTML file </a>
+            </li>
+            <li>
+                Assignment - <a class="list"href="./Assignments/Assignment11/">Patients</a>
+            </li>
+            <li>
+                Assignment
+                <a class="list" href="./Assignments/Assignment12/SimpleAdder.html">Sampler</a>
+            </li>
+        </ul>
+       </div>
+   </div>
 </body>
 </html>

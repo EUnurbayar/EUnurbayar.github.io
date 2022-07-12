@@ -1,0 +1,13 @@
+
+.fit-picture{
+    border-radius: 100%;
+}
+
+.ul-list{
+  list-style-type: none;
+}
+.list{
+    text-decoration: none;
+    /* color:darkblue; */
+    text-align: justify;
+}
